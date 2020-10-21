@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 83.085 s <<< FAILURE! - in TestSuite
+test_4(Tests.Test_4)  Time elapsed: 12.513 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #id_gender1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-NC19AUDK', ip: '192.168.1.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201012085804, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 15592, moz:profile: C:\Users\mihai\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6df7591c-4520-4f27-9c5f-aef845a45aeb
+*** Element info: {Using=id, value=id_gender1}
+	at Tests.Test_4.test_4(Test_4.java:42)
+
+test_5(Tests.Test_5)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problem: 
+	driver cannot be resolved to a type
+
+	at Tests.Test_5.test_5(Test_5.java:46)
+
